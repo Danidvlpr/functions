@@ -18,7 +18,7 @@ let dollars = 95;
 let pesos = 20.517;
 
 function currencyConverter(curr1, curr2) {
-  conversion = curr1 * (curr1 / curr2);
+  conversion = (curr1 * curr2);
   console.log(` ${curr1} dollars is equivalent to ${conversion.toFixed(2)} pesos`);
   
 }

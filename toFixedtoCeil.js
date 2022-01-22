@@ -2,10 +2,10 @@
 //const usd=95 to pesos w .tofixed(2)
 
 let amountDollars = 95;
-let pesos = 20.517;
+let pesos = 20.47;
 
 function currencyConverter(curr1, curr2) {
-  conversion = (curr1 / curr2);
+  conversion = (curr1 * curr2);
   console.log(` ${curr1} dollars is equivalent to ${conversion.toFixed(2)} pesos`);
   
 }
@@ -27,8 +27,8 @@ console.log('---------------------------------------------------')
 
 //convert rupee to frank
 
-let rupee = 27;
-let frank = 0.33;
+let rupee = 300;
+let frank = 0.012;
 
 function convertRupeeToFrank (rup,frk){
 convrRate = (rup*frk);
@@ -41,11 +41,11 @@ console.log('----------------------------------------------')
 
 //convert rupee to frank with Math.ceil
 
-let rupe= 27;
-let frnk= 0.33;
+let rupe= 300;
+let frnk= 0.012;
 
 function convertRupeTofrnk (rupe,frnkk){
-  convrtRate = (rupe * frnkk);
+  convrtRate = (rupe * frnkk) ;
 
 console.log(`${rupe} rupee is equal to ${Math.ceil(convrtRate)} frank`)
 }
@@ -82,6 +82,7 @@ convertWonToBaht(koreanWon,thaiBaht);
 console.log('------------------------------------------')
 
 //convert korean won to thai baht to whole number Math.ceil
+//multiply instead of / bc its higher than decimal amount
 
 let korWon = 96;
 let thaiB= 0.028;
@@ -92,3 +93,17 @@ function convertWnToBaht(kor,thai){
   
 }
 convertWnToBaht(korWon,thaiB)
+
+console.log('-------------------------------------------------')
+
+//const tempC= 8.5 function to convert c to f then output complete sentence
+
+//google function to convert celsius to farenheit
+
+let tempC = 8.5;
+
+function convertCtoF(tempInC) {
+  return tempInC * 1.8 + 32;
+}
+
+console.log(`${tempC}°C is equal to ${convertCtoF(tempC)}°F`);
