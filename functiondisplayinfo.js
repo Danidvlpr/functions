@@ -8,9 +8,8 @@ console.log(`my Dogs name is ${firstName}`)
 console.log(`my dog ${firstName} is ${age} years old`)
 console.log(`${firstName} is a ${gender} and loves their toy ${favoriteToy}`)
 }
-console.log("------------------------------------------------------------")
-
 myDogsInfo('skip',3,'girl','elmo')
+console.log("------------------------------------------------------------")
 
 function aboutMe(name,nickName,ageCount,genderSpecific,nationality){
     console.log(`Hello everyone, my name is ${name} but you can call me ${nickName} `)
@@ -20,13 +19,3 @@ function aboutMe(name,nickName,ageCount,genderSpecific,nationality){
 aboutMe('Danielle','Dani',30,'female','Israeli')
 
 console.log("------------------------------------------------------------")
-
-function sumof(num1,num2){
-    let sumOfAns = num1+num2
-    console.log(`The number ${num1} and ${num2} equals to ${sumOfAns}` )
-    
-}
-sumof(1,5)
-
-console.log('--------------------------------------')
-

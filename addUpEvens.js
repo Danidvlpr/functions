@@ -1,13 +1,13 @@
 const arr = [5, 8, 7, 12, 13, 17, 22]
 
-function addUpEvens(arr) {
+function addUpEvens() {
   let sum = 0
   for(let i = 0; i < arr.length; i++) {
     if(arr[i] % 2 === 0) {
-      sum = sum + arr[i]
+      sum += arr[i]
     }
   }
-  return sum
+return sum
 }
 console.log(addUpEvens(arr))
 
@@ -19,7 +19,7 @@ console.log('----------------------------------------')
 
 const array = [1,2,3,4,5,6,7,8]
 
-function addUpOdds(array){
+function addUpOdds(){
     let sum1 = 0
     for(let x=0;x < array.length;x++){
     if(array[x] % 2-1===0){

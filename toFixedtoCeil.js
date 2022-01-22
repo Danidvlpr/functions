@@ -103,7 +103,19 @@ console.log('-------------------------------------------------')
 let tempC = 8.5;
 
 function convertCtoF(tempInC) {
-  return tempInC * 1.8 + 32;
+  return (tempInC * 9/5) +32
 }
 
 console.log(`${tempC}°C is equal to ${convertCtoF(tempC)}°F`);
+
+//const tempF= 10
+
+//google function to convert farenheit to celsius
+
+let tempF = 12.5;
+
+function convertFtoC(tempInF){
+  return (tempInF - 32) * 5/9;
+
+}
+console.log(`${tempF} degrees F is equal to ${convertFtoC(tempF)} degrees C`);
