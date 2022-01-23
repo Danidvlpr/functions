@@ -20,10 +20,14 @@ if (hour < 11) {
 
 console.log('------------------------------------------')
 
-dogName= "squishy";
+const dogName= "squishy";
 let times = 9;
 if (times > 9) {
     console.log(`Im running late ${dogName} its past ${times}, \n ill make it up to you!`);
-}else if (times < 9){
-    console.log(`Okay ${dogName} get your leash!`); 
-}
+}else { (times < 9)
+    console.log(`Okay ${dogName} get your leash!`)};
+
+
+  console.log ('-----------------------------------------')
+
+  

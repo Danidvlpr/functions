@@ -45,10 +45,17 @@ const snacks = {
     pringles: "original",
 };
 
+const bakeryItem = {
+    bread: ["rye", "wheat","hamburger buns"],
+    cookies: "chocolate Chip",
+    cake: "birthday"
+};
+
 let onlineShopperCart = [dairy,deliProducts,snacks];
 
 
 //customer shops at publix decides she wants to remove only dairy products
+//which items are being removed? make a variable (let) be the items we are removing
 
 let itemsToRemove = [deliProducts.cheese, dairy];
 
@@ -57,4 +64,13 @@ function getDairyItemsOut() {
 }
 getDairyItemsOut();
 
-console.log('------------------------------------')
+//the shoppers wife wants to only buy cheese if they have manchego. 
+
+let cheeseItems = (deliProducts.cheese[0])
+if (cheeseItems === deliProducts.cheese[0]){
+    console.log(`There is ${deliProducts.cheese[0]}`)
+}else {
+    console.log(`we are out of ${deliProducts.cheese[0]}`)
+}
+
+
