@@ -49,3 +49,19 @@ function findMinMax(arr) {
 }
 
 console.log(...findMinMax(array));
+
+
+console.log('--------------------------------------')
+//countdown to blast off!
+
+
+function countDown(timer) {
+  for (let i = 20; i > 0; i--) {
+    console.log(i);
+    if (i - 1 === 0) {
+      console.log("BLAST OFF!");
+    }
+  }
+}
+
+countDown(20);
