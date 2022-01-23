@@ -11,11 +11,12 @@ console.log(`${firstName} is a ${gender} and loves their toy ${favoriteToy}`)
 myDogsInfo('skip',3,'girl','elmo')
 console.log("------------------------------------------------------------")
 
+//function to display dynamic info
 function aboutMe(name,nickName,ageCount,genderSpecific,nationality){
     console.log(`Hello everyone, my name is ${name} but you can call me ${nickName} `)
     console.log(`I am ${ageCount} years old.`)
     console.log(`I identify as ${genderSpecific} and my nationality is ${nationality}`)
 }
-aboutMe('Danielle','Dani',30,'female','Israeli')
+aboutMe('Jeremiah','Miah',31,'male','SortaIsraeli')
 
 console.log("------------------------------------------------------------")

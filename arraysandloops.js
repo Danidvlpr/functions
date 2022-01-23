@@ -19,9 +19,9 @@ console.log("....................................");
 const tips = [5, 8, 13, 2, 14, 27, 9, 18];
 
 function addUpTips(arrayOfTips) {
-let total = 0;
-for (let i = 0; i < arrayOfTips.length; i++) {
-total = total + arrayOfTips[i];
+  let total = 0;
+  for (let i = 0; i < arrayOfTips.length; i++) {
+    total = total + arrayOfTips[i];
   }
   return total;
 }
@@ -30,6 +30,22 @@ console.log("total tips:", addUpTips(tips));
 
 console.log("....................................");
 
+// find the min and max by sorting function
 
+const array = [3, 2, 1, 5, 6, 32, 9, 29];
+function findMinMax(arr) {
+  let min = arr[0];
+  let max = arr[0];
+  for (let i = 0; i < arr.length; i++) {
+    if (min > arr[i]) {
+      min = arr[i];
+    }
+    if (arr[i] > max) {
+      max = arr[i];
+    }
+  }
 
+  return [min, max];
+}
 
+console.log(...findMinMax(array));

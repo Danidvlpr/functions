@@ -69,3 +69,4 @@ function addtion(hrAge, hsAge) {
      console.log(`${val1} to the power of ${powerOf} equals ${totalVal}`)
  }
  exponentOfANumber(5,2)
+
