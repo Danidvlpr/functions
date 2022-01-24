@@ -66,11 +66,11 @@ getDairyItemsOut();
 
 //the shoppers wife wants to only buy cheese if they have manchego. 
 
-let cheeseItems = (deliProducts.cheese[0])
+let cheeseItems = ('manchego')
 if (cheeseItems === deliProducts.cheese[0]){
-    console.log(`There is ${deliProducts.cheese[0]}`)
+    console.log(`There is ${cheeseItems}`)
 }else {
-    console.log(`we are out of ${deliProducts.cheese[0]}`)
+    console.log(`we are out of ${cheeseItems}`)
 }
 
 
