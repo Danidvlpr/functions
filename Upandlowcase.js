@@ -46,3 +46,14 @@ function myAgein10(myAge){
     console.log (`in 10 years my age will be ${myTotalAge} and my name is \n ${myName.toUpperCase()} scream it for the world to hear!`)
 }
 myAgein10(30)
+
+
+//make abas name in uppercase and write I love my papi
+
+let abasName = 'papi'
+
+function allUpperCase(){
+  console.log(`I love my ${abasName.toUpperCase()}`)
+}
+
+allUpperCase();

@@ -64,5 +64,36 @@ console.log(addOdd(ageGroupOfOddNum));
 
 console.log("--------------------------------------");
 
+//add up odds and list which items are ODD (COMPLETE )
 
-console.log("--------------------------------------");
+
+const addAndDisplay = [31, 6, 8, 9, 13, 18, 7, 4];
+
+function addingOdds() {
+  let totals = 0;
+  for (let O= 0; O < array.length; O++) {
+    if ((addAndDisplay[O] % 2) - 1 === 0) {
+      totals = totals + addAndDisplay[O];
+    }
+  }
+  return totals;
+}
+console.log(addingOdds(addAndDisplay));
+
+//starting here
+function countOddtips(inarr) {
+  let count = 0;
+
+  for (let t = 0; t < arr.length; t++) {
+    if (inarr[t] == addAndDisplay[]) {
+      count++;
+    }
+  }
+  return count;
+}
+console.log(`we found ${countOddtips(addAndDisplay)} amount of odds`);
+
+
+
+console.log("------------------------------------------------------");
+

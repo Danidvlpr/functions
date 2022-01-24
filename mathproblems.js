@@ -1,8 +1,11 @@
+
+
+
 function sumof(num1, num2) {
   let sumOfAns = num1 + num2;
-  console.log(`The number ${num1} and ${num2} equals to ${sumOfAns}`);
+  console.log(`Tmhe number ${num1} and ${num2} equals to ${sumOfAns}`);
 }
-sumof(1, 5);
+sumof(2904, 3563);
 
 console.log("--------------------------------------");
 
@@ -20,8 +23,8 @@ multiply(19, 2345, 60);
 
 function divideAndAdd(number1, number2, number3) {
   let totalAnswer = number1 / number2 + number3;
-  console.log(
-    `First I divided ${number1} by ${number2} then I added ${number3} and it gave me ${totalAnswer}`
+  console.log
+    (`First I divided ${number1} by ${number2} then I added ${number3} and it gave me ${totalAnswer}`
   );
 }
 divideAndAdd(6, 7, 8);

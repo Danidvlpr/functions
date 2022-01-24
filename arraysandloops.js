@@ -65,3 +65,22 @@ function countDown(timer) {
 }
 
 countDown(20);
+
+console.log ('----------------------------')
+
+// find the amount of right vs left in this array
+
+let arrayOf = ['right','left','left','right','right','left','right','left','right','right']
+
+
+function countRight(arr) {
+  let startingAt = 0;
+  for (let i = 0; i < arr.length; i++) {
+    if (arr[i] === 'right') {
+     startingAt++;
+    }
+  }
+  return startingAt;
+}
+console.log(`we found ${countRight(arrayOf)} rights`);
+
