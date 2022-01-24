@@ -1,3 +1,20 @@
+
+
+
+let friend = {
+    
+    firstName: "Amanda",
+    hairColor: "brown hair",
+    age: 26 
+}
+
+
+console.log(`A little about my friend Amanda. ${friend.firstName},${friend.hairColor},${friend.age} `)
+
+
+console.log('---------------------------------------------')
+
+
 let laptop = {
   name: "Apple MacBook Air",
   color: "Space Gray",

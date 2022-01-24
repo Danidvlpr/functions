@@ -1,4 +1,15 @@
 
+//math problem using .reduced finding the total in array
+
+const array = [1,2,3,4];
+const reduced = array.reduce
+  (function (prev, current) 
+{
+    return prev +current 
+})
+console.log(reduced) 
+
+console.log('----------------------------------------------------')
 
 
 function sumof(num1, num2) {
