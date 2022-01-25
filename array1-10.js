@@ -7,7 +7,7 @@ function countDown(){
 
     countDown();
 
-  //find array of grocery items
+  //list items in array
 
   let groceryItems = ['bananas','strawberries','mangos']
 
@@ -15,3 +15,17 @@ function countDown(){
     console.log(`there are 3 items which are ${groceryItems}`)
   }
   amountOfFruits();
+
+
+
+//list items in array
+
+let bdayFestivities= ["balloons","lolipops","cake"]
+
+function getValues(){
+console.log(`${bdayFestivities}`)
+}
+
+getValues();
+
+

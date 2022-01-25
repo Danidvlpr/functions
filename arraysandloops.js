@@ -84,3 +84,12 @@ function countRight(arr) {
 }
 console.log(`we found ${countRight(arrayOf)} rights`);
 
+// create a countdown from 4,3,2,1 HAPPY NEW YEAR
+
+function countDown(){
+  for (let r=4; r>0;r--)
+  console.log(r)
+  console.log(`HAPPY NEW YEAR`)
+}
+countDown(4);
+
