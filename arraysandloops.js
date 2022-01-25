@@ -66,7 +66,7 @@ function countDown(timer) {
 
 countDown(20);
 
-console.log ('----------------------------')
+console.log ('--------------------------------------------')
 
 // find the amount of right vs left in this array
 
@@ -93,3 +93,22 @@ function countDown(){
 }
 countDown(4);
 
+console.log('-------------------------------------------')
+
+
+//add more items to birthday menu (faster way)
+
+let bdayMenu = ['cake', 'cookies']
+let fullBdayMenu = bdayMenu.push('pizza', 'coke', 'candy')
+
+console.log(bdayMenu)
+
+
+//merge 1 array into the other another method for .push
+
+
+let store = ['shirts','dresses','shoes']
+let newInventory = ['pants','jewelry','pajama sets'] 
+
+store.push(...newInventory)
+console.log(store)

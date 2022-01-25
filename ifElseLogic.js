@@ -50,3 +50,12 @@ if (starbucks !== "open at 11am") {
 } else {
   console.log("Sorry we are closed");
 }
+
+//find out if shoe size is available
+
+let shoeSize = 8;
+if (shoeSize < 7){
+  console.log ('we are out of your size');
+} else  {
+ console.log('what color shoe would you like?')
+}
