@@ -99,3 +99,19 @@ function addtion(hrAge, hsAge) {
  addUpFruits()
 
  console.log('--------------------------------------------------------------')
+
+
+
+//add up amount of kids in array 1-5 using .reduce
+
+
+
+const ageSumOfKids = [1,2,3,4,5];
+const reduceKids = ageSumOfKids.reduce
+(function (firstKid,lastKid )
+{
+  return firstKid+lastKid
+})
+console.log(reduceKids)
+
+

@@ -4,7 +4,7 @@ function addUpEvens() {
   let sum = 0;
   for (let i = 0; i < arr.length; i++) {
     if (arr[i] % 2 === 0) {
-      sum += arr[i];
+      sum = sum + arr[i];
     }
   }
   return sum;
@@ -85,7 +85,7 @@ function countOddtips(inarr) {
   let count = 0;
 
   for (let t = 0; t < arr.length; t++) {
-    if (inarr[t] == addAndDisplay[]) {
+    if (inarr[t] == addAndDisplay[t]) {
       count++;
     }
   }
@@ -96,4 +96,20 @@ console.log(`we found ${countOddtips(addAndDisplay)} amount of odds`);
 
 
 console.log("------------------------------------------------------");
+
+
+
+// add up only even dollars
+
+// dollars = [1,3,4,5,9,10,12,16]
+
+// function addEvenDollars (){
+// let dollarsOf= 0;
+// for (let d=0; d<array.length; d++){
+// if (dollarsOf [d] % 2 ===0){
+// }
+// dollarsOf = dollarsOf +dollars[d];
+// }
+// }
+// return dollarsOf;
 
