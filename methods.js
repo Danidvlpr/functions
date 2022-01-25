@@ -11,23 +11,16 @@ let person = {
   console.log ('------------------------------------------------')
 
 
-  // get the subtotal for the items at register and get 3 bananas, 2 oranges @per item cost.
-  //continue later
+  // get the subtotal for the items at register and get  2 bananas, 2 oranges @per item cost.
+  
 
-  let itemsAtRegister = {
-      fruits: ['bananas','oranges','pears'],
-      snacks:['cheetos','granola bars'],
-  }
 
-let pricesOfItems = {
-bananas: .49,
-oranges: .69,
-pears: 1.00,
-cheetos: 2.00,
-granolaBars: 3.00
+ let bananas = .49;
+ let oranges = .50;
+
+
+function addUpFruits(){
+  let total = bananas*2 + oranges*2;
+  console.log(`The total amount comes out to ${total}`)
 }
-
-function getTotal(){
-let pricesOfItems = 
-
-}
+addUpFruits()
