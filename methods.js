@@ -11,7 +11,8 @@ let person = {
   console.log ('------------------------------------------------')
 
 
-  // get the subtotal for the items at register CONTINUE LATER
+  // get the subtotal for the items at register and get 3 bananas, 2 oranges @per item cost.
+  //continue later
 
   let itemsAtRegister = {
       fruits: ['bananas','oranges','pears'],
