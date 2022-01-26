@@ -112,3 +112,4 @@ let newInventory = ['pants','jewelry','pajama sets']
 
 store.push(...newInventory)
 console.log(store)
+

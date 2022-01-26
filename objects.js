@@ -1,5 +1,6 @@
 
 
+//info about my friend
 
 let friend = {
     

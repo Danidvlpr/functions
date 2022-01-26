@@ -99,17 +99,50 @@ console.log("------------------------------------------------------");
 
 
 
-// add up only even dollars
+// add up how man dollars there are using .reduce 
 
-// dollars = [1,3,4,5,9,10,12,16]
+dollars = [1,3,4,5,9,10,12,16];
 
-// function addEvenDollars (){
-// let dollarsOf= 0;
-// for (let d=0; d<array.length; d++){
-// if (dollarsOf [d] % 2 ===0){
-// }
-// dollarsOf = dollarsOf +dollars[d];
-// }
-// }
-// return dollarsOf;
+const reduceIt = dollars.reduce
+  (function (beg, end) 
+{
+    return beg +end 
+})
+console.log(`You made ${reduceIt} dollars great job!`) 
 
+//now find out how many evens are in the dollars and count it together
+
+function addTheEvens() {
+  let total = 0;
+  for (let d= 0; d < array.length; d++) {
+    if ((dollars[d] % 2)=== 0) {
+      total = total + dollars[d];
+    }
+  }
+  return total;
+}
+console.log(addTheEvens(dollars));
+
+//now find out HOW many numbers are even in a list
+
+function countEvendollars() {
+  let itStart = 0;
+
+  for (let a = 0; a < dollars.length; a++) {
+    if (dollars[a] == dollars[a]) {
+      itStart++;
+    }
+  }
+  return itStart;
+}
+console.log(`we found ${countEvendollars(dollars)} amount of evens in the array`);
+
+//list out the values in the  array?
+
+let dollars1 = [1,3,4,5,9,10,12,16];
+
+function getArray(){
+console.log(`${dollars1}`)
+}
+
+getArray();
